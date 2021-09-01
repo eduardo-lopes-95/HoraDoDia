@@ -2,7 +2,8 @@ function carregar() {
     let msg = document.getElementById('msg')
     let foto = document.getElementById('foto')
     let data = new Date()
-    let hora = data.getHours()
+    //let hora = data.getHours()
+    let hora = 21
     msg.innerHTML = `Agora são ${hora} horas`
     
     if(hora > 0 && hora <= 12){
